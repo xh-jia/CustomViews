@@ -12,6 +12,18 @@
         android:src="@drawable/test_image"
         app:radius="1000dp"
         android:scaleType="centerCrop"/>
+
+    <com.xinghua.customviewlibrary.views.OptionalRoundImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/test_image"
+        app:radius="1000dp"
+        app:left_top_radius="10dp"
+        app:right_top_radius="30dp"
+        app:right_bottom_radius="50dp"
+        app:left_bottom_radius="70dp"
+        android:scaleType="centerCrop"/>
+
     <!--you can set layout_height any dimension, it wouldn't influent the height for ratio.-->
     <com.xinghua.customviewlibrary.views.RatioImageView
         android:layout_width="200dp"
