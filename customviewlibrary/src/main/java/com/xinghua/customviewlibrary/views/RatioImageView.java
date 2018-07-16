@@ -31,4 +31,8 @@ public class RatioImageView extends AppCompatImageView {
         int h = (int) (w * ratio);
         setMeasuredDimension(w + getPaddingLeft() + getPaddingRight(), h + getPaddingTop() + getPaddingBottom());
     }
+
+    public void setRatio(float ratio) {
+        this.ratio = ratio;
+    }
 }

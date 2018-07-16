@@ -75,4 +75,10 @@ public class RoundImageView extends AppCompatImageView {
         }
         canvas.restoreToCount(saveCount);
     }
+
+    /* here is the public setters */
+
+    public void setRadius(float mRadius) {
+        this.mRadius = mRadius;
+    }
 }

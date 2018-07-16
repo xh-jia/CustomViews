@@ -90,4 +90,26 @@ public class OptionalRoundImageView extends AppCompatImageView {
         }
         canvas.restoreToCount(saveCount);
     }
+
+    /* here is the public setters */
+
+    public void setRadius(float mRadius) {
+        this.mRadius = mRadius;
+    }
+
+    public void setLeftBottomRadius(float mLeftBottomRadius) {
+        this.mLeftBottomRadius = mLeftBottomRadius;
+    }
+
+    public void setLeftTopRadius(float mLeftTopRadius) {
+        this.mLeftTopRadius = mLeftTopRadius;
+    }
+
+    public void setRightBottomRadius(float mRightBottomRadius) {
+        this.mRightBottomRadius = mRightBottomRadius;
+    }
+
+    public void setRightTopRadius(float mRightTopRadius) {
+        this.mRightTopRadius = mRightTopRadius;
+    }
 }
